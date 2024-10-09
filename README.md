@@ -46,3 +46,23 @@
 | -------|--------|
 |git status |  Já diz
 | touch README.md | cria um arquivo de txt |
+| git add (nome do arquivo)| manda para área de preparação|
+| git log | exibe o commit/info |
+| echo (nome da pasta / arquivo) / > .gitignore |  ignora os arquivos que adicionar nela |
+
+# Desfazendo Alterações no Repositório 
+| código | função |
+| -------|--------|
+| rm -rf .git | desfaz o git init |
+| git restore (nome do arquivo) |  Restaura o arquivo de alguma alteração | 
+|git commit –amend -m”nome” | muda o nome do ultimo commit|
+|git reset –(1 abaixo) (e dps o código do commit) | desfazer / retornar para um commit anterior |
+•	-- soft = tirar os arquivos do commit mencionados
+•	-- mixed = 
+•	-- hard = ignora os arquivos do ultimo commit e exclui 
+
+# Enviando e Baixando Alterações
+(Ao criar um repositório no GitHub ele passa as configs para add) 
+| código | função |
+| -------|--------|
+| git pull |  puxa as info/alterações e mescla no PC|
